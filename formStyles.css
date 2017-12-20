@@ -1,3 +1,25 @@
+body{
+  background-color: #222930;
+}
+
+header {
+  text-decoration: none;
+  color: #CFBAB8;
+  background-color: #B54439;
+  color: hsl(0, 0%, 90%);
+  font-size: 150%;
+  display: flex;
+  flex-flow: row;
+  border-bottom: 5px solid #CFBAB8;
+}
+
+nav ul li{
+  display: inline-flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 2rem;
+}
+
 form{
   display: flex;
   flex-flow: column nowrap;

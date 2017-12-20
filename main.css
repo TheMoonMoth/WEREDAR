@@ -10,12 +10,14 @@ header {
   flex-flow: row;
   border-bottom: 5px solid #CFBAB8;
 }
+
 nav ul li{
   display: inline-flex;
   justify-content: space-between;
   text-align: center;
   padding: 2rem;
 }
+
 .hero{
   border-bottom: 5px solid #CFBAB8;
   position: relative;
