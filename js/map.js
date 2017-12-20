@@ -42,7 +42,7 @@ fetch(wolvesApi)
 
 setTimeout(function(){
   pinWolf(sightings, wolves)
-}, 100)
+}, 1000)
 
 
 function pinWolf(sightingArray, wolvesArray){
