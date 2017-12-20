@@ -8,7 +8,6 @@ function pinItFunctionality(){
     event.preventDefault()
     const data = new FormData(document.querySelector('form'))
     var formDatas = {
-            'threat': data.get('threatLevel'),
             'location': data.get('location'),
             'color': data.get('color')
         }
