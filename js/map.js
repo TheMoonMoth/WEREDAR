@@ -12,6 +12,8 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 }).addTo(mymap);
 
 
+
+
 let wolves = []
 let sightings = []
 
@@ -38,14 +40,20 @@ fetch(wolvesApi)
   .then(response => response.json())
   .then(response => wolves = response)
 
+setTimeout(function(){
+  pinWolf(sightings, wolves)
+}, 100)
+
 
 function pinWolf(sightingArray, wolvesArray){
   for (var j = 0; j < sightingArray.length; j++){
     let marker = L.marker(locations[sightingArray[j].locations[0]]).addTo(mymap)
     marker.bindPopup(`The ${wolvesArray[j].color} wolf named ${wolvesArray[j].name} was last seen in ${sightingArray[j].locations[0]}`).openPopup()
+    var circle = L.circle(locations[sightingArray[j].locations[0]], {
+      color: 'red',
+      fillColor: '#823129',
+      fillOpacity: 0.5,
+      radius: 1000
+      }).addTo(mymap)
   }
 }
-
-setTimeout(function(){
-  pinWolf(sightings, wolves)
-}, 100)

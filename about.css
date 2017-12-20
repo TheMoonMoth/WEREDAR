@@ -1,7 +1,6 @@
 main {
   display: flex;
   flex-flow: column;
-
 }
 
 p {
@@ -14,6 +13,11 @@ p {
 
 .about-content h1, h2{
   padding: 0;
+}
+
+.page-title {
+  display: flex;
+  flex-flow: row nowrap;
 }
 
 .cards {
