@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(191, 183, 120);
+}
+
+.cards {
+  display: flex;
+  flex-flow: row nowrap;
+
+}
+
+.card {
+  background-color: rgb(153, 153, 153);
+  height: 400px;
+  width: 300px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 1rem;
+}
+
+.cardpic {
+  height: 300px;
+  width: 200px;
+}
+
+#kylepic {
+  background-image: url("/images/kyle.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#patrickpic {
+  background-image: url("/images/patrick.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#paulpic {
+  background-image: url("/images/paul.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#rosspic {
+  background-image: url("/images/ross.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
