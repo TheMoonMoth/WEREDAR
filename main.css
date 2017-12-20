@@ -1,3 +1,7 @@
+@font-face{
+  font-family: "gotcha";
+  src: url('/gotcha_2/GOTHA.ttf');
+}
 a {
   text-decoration: none;
   color: #CFBAB8;
@@ -51,15 +55,19 @@ main{
 aside{
   display: flex;
   flex-flow: column;
-  padding-left: 2rem;
+  padding: 1rem 0 2rem 0;
   flex: 2;
   text-align: center;
   background-color: #362321;
+}
+.upcoming{
+  padding: 2rem 0 0 0;
 }
 h1{
   color: #CFBAB8;
   padding: 0 0 0 5rem;
   font-size: 250%;
+  font-family: 'gotcha', gotcha_2;
 }
 h2{
   color: #CFBAB8;
