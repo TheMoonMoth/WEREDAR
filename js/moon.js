@@ -34,7 +34,7 @@ function findCurrentPhaseIMG(obj){
   switch (obj.curphase) {
     case "Waxing Crescent":
       console.log("true")
-      curPhaseIMG.src = "/assets/Waxing_crescent.png"
+      curPhaseIMG.src = "../assets/Waxing_crescent.png"
       break;
     default:
 
