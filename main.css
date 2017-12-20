@@ -34,6 +34,11 @@ nav ul li{
   top: 35%;
   right: 24%;
 }
+.wolf{
+  position: absolute;
+  top: -35%;
+  right: 6%;
+}
 body{
   background-color: #222930;
 }
@@ -59,6 +64,8 @@ aside{
   flex: 2;
   text-align: center;
   background-color: #362321;
+  border: 2px solid #CFBAB8;
+  border-radius: 5px;
 }
 .upcoming{
   padding: 2rem 0 0 0;
@@ -92,6 +99,9 @@ h6{
   font-size: 275%;
   font-family: 'gotcha', Fallback, sans-serif;
   color: #CFBAB8;
+}
+.next-full, .curphase{
+  padding: 0 0 .5rem 0;
 }
 
 #mapid {
