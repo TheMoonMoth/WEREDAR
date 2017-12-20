@@ -1,10 +1,11 @@
 a {
   text-decoration: none;
-  color: #d92b4b;
+  color: #735045;
 }
 header {
-  background-color: #000000;
+  background-color: #D92B4B;
   color: hsl(0, 0%, 90%);
+  font-size: 150%;
   display: flex;
   flex-flow: row;
 }
@@ -19,20 +20,47 @@ body{
 }
 p{
   color: #ffffff;
+  padding-top: .5rem;
 }
-* {
-  margin: 0;
-}
-.hero{
-
-}
-/* .links{
+main{
   display: flex;
-  justify-content: flex-end;
   flex-flow: row;
-} */
-
+  padding: 2rem;
+}
+.block{
+  display: flex;
+  flex-flow: column;
+  padding-right: 2rem;
+  flex: 4;
+}
+aside{
+  display: flex;
+  flex-flow: column;
+  padding-left: 2rem;
+  flex: 2;
+  text-align: center;
+}
+h1{
+  padding: 0 0 0 5rem;
+  font-size: 250%;
+}
+h2{
+  padding: 0 0 0 5.5rem;
+  font-size: 175%;
+}
+h3{
+  font-size: 200%;
+  padding: 0 0 1rem 0;
+}
+h4{
+  padding: 0 0 1rem 0;
+  font-size: 175%
+}
+h5{
+  padding: 1rem 0 1rem 0;
+  font-size: 200%;
+}
 #mapid {
   height: 280px;
-  width: 400px;
+  width: 600px;
 }
