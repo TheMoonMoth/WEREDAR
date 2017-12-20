@@ -20,11 +20,30 @@ nav ul li{
   padding: 2rem;
 }
 
+label{
+  font-size: 2rem;
+  color: #CFBAB8;
+}
+
+select{
+  width: 12rem;
+}
+
+.pinIt{
+  background-color: #362321;
+  height: 4rem;
+  width: 10rem;
+  font-size: 2rem;
+  color: #CFBAB8;
+  border-radius: 25px;
+}
+
 form{
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
   margin: 5rem 5rem 5rem 5rem
+  background-color:
 }
 
 .formInput{
