@@ -1,8 +1,10 @@
 const baseUrl = 'https://werewolf-tracker.herokuapp.com/'
 const pinItButton = document.querySelector('.pinIt')
 pinItFunctionality()
+listeners()
 
-console.log(document.querySelector('')
+console.log(document.querySelector('.color').value)
+
 function pinItFunctionality(){
   pinItButton.addEventListener('submit', function(event){
     event.preventDefault()
@@ -18,6 +20,13 @@ function pinItFunctionality(){
     .then((resp) => {
       console.log(resp)
     })
+  })
+}
+
+function listeners(){
+  let threatLevel = document.querySelector('.threatLevel')
+  threatLevel.addEventListener('change', function(){
+    console.log(threatLevel.value)
   })
 }
 
