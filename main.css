@@ -26,3 +26,13 @@ p{
 .hero{
 
 }
+/* .links{
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: row;
+} */
+
+#mapid {
+  height: 280px;
+  width: 400px;
+}
