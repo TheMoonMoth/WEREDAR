@@ -18,10 +18,5 @@ function pinItFunctionality(){
       body: JSON.stringify(formDatas)
     })
     .then((resp) => resp.json())
-    reload()
   })
-}
-
-function reload(){
-  return window.location.reload(true)
 }
