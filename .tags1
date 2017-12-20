@@ -4,39 +4,4 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-html	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^<html>$/;"	function	line:2
-head	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^  <head>$/;"	function	line:3
-meta	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^    <meta charset="utf-8">$/;"	function	line:4
-link	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^    <link rel="stylesheet" href="reset.css">$/;"	function	line:11
-link	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^    <link rel="stylesheet" href="main.css">$/;"	function	line:12
-title	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^    <title>were<\/title>$/;"	function	line:13
-body	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^  <body>$/;"	function	line:15
-header	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^    <header>$/;"	function	line:16
-nav	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^      <nav>$/;"	function	line:17
-ul	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^          <ul>$/;"	function	line:18
-li	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^            <li><a href="#">home<\/a><\/li>$/;"	function	line:19
-li	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^            <li><a href="#">about<\/a><\/li>$/;"	function	line:20
-li	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^            <li><a href=".\/form.html">Report a Sighting<\/a><\/li>$/;"	function	line:21
-div	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^    <div class="hero">$/;"	function	line:25
-img	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^      <img src="images\/denver-city-park-skyline-3-b.jpg" alt="">$/;"	function	line:26
-h	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^      <h1>Wear<\/h1>$/;"	function	line:27
-h	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^      <h2>Where Are Those Wears?<\/h2>$/;"	function	line:28
-main	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^    <main>$/;"	function	line:30
-h	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^      <h3>map of sighitngs<\/h3>$/;"	function	line:31
-div	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^      <div class="map" id="mapid">$/;"	function	line:32
-nav	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^      <nav><a href="#"><h5>Report a sighting<\/h5><\/a><\/nav>$/;"	function	line:35
-p	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^        <p>Sometimes the most import thing you can do is letting the internet know about it. Let us know where you saw your last werewolf and keep your neighborhood safer. <\/p>$/;"	function	line:36
-nav	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^      <nav><a href="#"><h5>About us<\/h5><\/a><\/nav>$/;"	function	line:37
-p	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^        <p>Werewolfs are no laughing matter, these criminals are barking mad and need to be put down for good. Learn how our wolf reporting app is taking a bite out of crime. <\/p>$/;"	function	line:38
-aside	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^    <aside class="moon">$/;"	function	line:40
-h	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^      <h4>Current Moon<\/h4>$/;"	function	line:41
-div	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^      <div class="current">$/;"	function	line:42
-p	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^        <p class="curphase"><\/p>$/;"	function	line:43
-img	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^        <img class="curphase-img" src="#" alt="Waxing_crescent"\/>$/;"	function	line:44
-h	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^      <h4>Next Full Moon<\/h4>$/;"	function	line:46
-div	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^      <div class="upcoming">$/;"	function	line:47
-p	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^        <p class="next-full"><\/p>$/;"	function	line:48
-img	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^        <img src="\/assets\/Full_moon.png" alt="Full_moon">$/;"	function	line:49
-footer	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^    <footer><small>&copy;2017 <\/small><\/footer>$/;"	function	line:52
-script	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^    <script type="text\/javascript" src="js\/moon.js"><\/script>$/;"	function	line:53
-script	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^    <script type="text\/javascript" src=".\/js\/map.js"><\/script>$/;"	function	line:54
+pinItFunctionality	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.js	/^function pinItFunctionality(){$/;"	function	line:6
