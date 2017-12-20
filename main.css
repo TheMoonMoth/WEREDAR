@@ -91,6 +91,8 @@ h5{
 }
 h6{
   font-size: 275%;
+  color: #CFBAB8;
+  padding: 1rem 0 0 1rem;
 }
 #mapid {
   height: 280px;
