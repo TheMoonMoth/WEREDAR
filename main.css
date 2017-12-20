@@ -18,7 +18,7 @@ nav ul li{
   display: inline-flex;
   justify-content: space-between;
   text-align: center;
-  padding: 2rem;
+  padding: 2rem 2rem 1rem 2rem;
 }
 .hero{
   border-bottom: 5px solid #CFBAB8;
@@ -67,7 +67,6 @@ h1{
   color: #CFBAB8;
   padding: 0 0 0 5rem;
   font-size: 250%;
-  font-family: 'gotcha', gotcha_2;
 }
 h2{
   color: #CFBAB8;
@@ -76,8 +75,8 @@ h2{
 }
 h3{
   color: #CFBAB8;
-  font-size: 200%;
-  padding: 0 0 1rem 0;
+  font-size: 150%;
+  padding: 0 0 1rem .25rem;
 }
 h4{
   color: #CFBAB8;
@@ -92,6 +91,7 @@ h5{
 h6{
   font-size: 275%;
   font-family: 'gotcha', Fallback, sans-serif;
+  color: #CFBAB8;
 }
 
 #mapid {
