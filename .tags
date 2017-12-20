@@ -1,3 +1,71 @@
+html	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^<html>$/;"	function	line:2
+head	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^  <head>$/;"	function	line:3
+meta	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^    <meta charset="utf-8">$/;"	function	line:4
+title	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^    <title>WereForm<\/title>$/;"	function	line:5
+link	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^    <link rel="stylesheet" href="reset.css">$/;"	function	line:6
+link	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^    <link rel="stylesheet" href="main.css">$/;"	function	line:7
+link	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^    <link rel="stylesheet" href="formStyles.css">$/;"	function	line:8
+body	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^  <body>$/;"	function	line:10
+header	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^    <header>$/;"	function	line:11
+nav	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^      <nav>$/;"	function	line:12
+ul	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^          <ul>$/;"	function	line:13
+li	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^            <li><a href="\/index.html">Home<\/a><\/li>$/;"	function	line:14
+li	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^            <li><a href="\/about.html">About<\/a><\/li>$/;"	function	line:15
+li	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^            <li><a href="\/form.html">Report a Sighting<\/a><\/li>$/;"	function	line:16
+form	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^    <form>$/;"	function	line:20
+div	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^      <div class='formInput'>$/;"	function	line:21
+label	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^        <label>Location<\/label>$/;"	function	line:22
+select	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^        <select name='location' class='location'>$/;"	function	line:23
+option	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^          <option disabled selected>Select<\/option>$/;"	function	line:24
+option	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^          <option value='Capitol Hill'>Capitol Hill<\/option>$/;"	function	line:25
+option	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^          <option value='Wash Park'>Wash Park<\/option>$/;"	function	line:26
+option	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^          <option value='Five Points'>Five Points<\/option>$/;"	function	line:27
+option	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^          <option value='Chatfield'>Chatfield<\/option>$/;"	function	line:28
+option	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^          <option value='RiNo'>RiNo<\/option>$/;"	function	line:29
+option	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^          <option value='LoHi'>LoHi<\/option>$/;"	function	line:30
+option	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^          <option value='Cherry Creek'>Cherry Creek<\/option>$/;"	function	line:31
+option	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^          <option value='Aurora'>Aurora<\/option>$/;"	function	line:32
+option	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^          <option value='Baker'>Baker<\/option>$/;"	function	line:33
+option	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^          <option value='Littleton'>Littleton<\/option>$/;"	function	line:34
+div	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^      <div class='formInput'>$/;"	function	line:38
+label	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^        <label>Color<\/label>$/;"	function	line:39
+select	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^        <select name='color' class='color'>$/;"	function	line:40
+option	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^          <option disabled selected>Select<\/option>$/;"	function	line:41
+option	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^          <option value='Silver'>Silver<\/option>$/;"	function	line:42
+option	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^          <option value='Brown'>Brown<\/option>$/;"	function	line:43
+option	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^          <option value='Black'>Black<\/option>$/;"	function	line:44
+option	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^          <option value='Gray with Yellow Stripe'>Gray with Yellow Stripe<\/option>$/;"	function	line:45
+div	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^      <div class='formInput submit'>$/;"	function	line:48
+input	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^        <input type='submit' value='pin it' class='pinIt'\/>$/;"	function	line:49
+script	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^    <script src=".\/form.js" charset="utf-8"><\/script>$/;"	function	line:52
+a	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/main.css	/^a {$/;"	function	line:1
+header	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/main.css	/^header {$/;"	function	line:5
+nav ul li	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/main.css	/^nav ul li{$/;"	function	line:14
+.hero	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/main.css	/^.hero{$/;"	function	line:21
+.herotitle	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/main.css	/^.herotitle{$/;"	function	line:25
+.herotag	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/main.css	/^.herotag{$/;"	function	line:30
+body	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/main.css	/^body{$/;"	function	line:35
+p	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/main.css	/^p{$/;"	function	line:38
+main	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/main.css	/^main{$/;"	function	line:42
+.block	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/main.css	/^.block{$/;"	function	line:47
+aside	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/main.css	/^aside{$/;"	function	line:53
+h1	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/main.css	/^h1{$/;"	function	line:61
+h2	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/main.css	/^h2{$/;"	function	line:66
+h3	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/main.css	/^h3{$/;"	function	line:71
+h4	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/main.css	/^h4{$/;"	function	line:76
+h5	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/main.css	/^h5{$/;"	function	line:81
+#mapid	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/main.css	/^#mapid {$/;"	function	line:86
+*	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/main.css	/^*{$/;"	function	line:90
+body	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/formStyles.css	/^body{$/;"	function	line:1
+header	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/formStyles.css	/^header {$/;"	function	line:5
+nav ul li	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/formStyles.css	/^nav ul li{$/;"	function	line:16
+label	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/formStyles.css	/^label{$/;"	function	line:23
+select	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/formStyles.css	/^select{$/;"	function	line:28
+.pinIt	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/formStyles.css	/^.pinIt{$/;"	function	line:32
+form	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/formStyles.css	/^form{$/;"	function	line:41
+.formInput	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/formStyles.css	/^.formInput{$/;"	function	line:49
+label	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/formStyles.css	/^label{$/;"	function	line:56
+pinItFunctionality	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.js	/^function pinItFunctionality(){$/;"	function	line:6
 html	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^<html>$/;"	function	line:2
 head	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^  <head>$/;"	function	line:3
 meta	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^    <meta charset="utf-8">$/;"	function	line:4
@@ -8,65 +76,31 @@ body	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^  <b
 header	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^    <header>$/;"	function	line:16
 nav	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^      <nav>$/;"	function	line:17
 ul	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^          <ul>$/;"	function	line:18
-li	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^            <li><a href="#">home<\/a><\/li>$/;"	function	line:19
-li	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^            <li><a href="#">about<\/a><\/li>$/;"	function	line:20
-li	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^            <li><a href=".\/form.html">Report a Sighting<\/a><\/li>$/;"	function	line:21
-div	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^    <div class="hero">$/;"	function	line:25
-img	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^      <img src="images\/denver-city-park-skyline-3-b.jpg" alt="">$/;"	function	line:26
-h	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^      <h1>Wear<\/h1>$/;"	function	line:27
-h	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^      <h2>Where Are Those Wears?<\/h2>$/;"	function	line:28
-main	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^    <main>$/;"	function	line:30
-h	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^      <h3>map of sighitngs<\/h3>$/;"	function	line:31
-div	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^      <div class="map" id="mapid">$/;"	function	line:32
-nav	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^      <nav><a href="#"><h5>Report a sighting<\/h5><\/a><\/nav>$/;"	function	line:35
-p	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^        <p>Sometimes the most import thing you can do is letting the internet know about it. Let us know where you saw your last werewolf and keep your neighborhood safer. <\/p>$/;"	function	line:36
-nav	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^      <nav><a href="#"><h5>About us<\/h5><\/a><\/nav>$/;"	function	line:37
-p	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^        <p>Werewolfs are no laughing matter, these criminals are barking mad and need to be put down for good. Learn how our wolf reporting app is taking a bite out of crime. <\/p>$/;"	function	line:38
-aside	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^    <aside class="moon">$/;"	function	line:40
-h	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^      <h4>Current Moon<\/h4>$/;"	function	line:41
-div	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^      <div class="current">$/;"	function	line:42
-p	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^        <p class="curphase"><\/p>$/;"	function	line:43
-img	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^        <img class="curphase-img" src="#" alt="Waxing_crescent"\/>$/;"	function	line:44
-h	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^      <h4>Next Full Moon<\/h4>$/;"	function	line:46
-div	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^      <div class="upcoming">$/;"	function	line:47
-p	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^        <p class="next-full"><\/p>$/;"	function	line:48
-img	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^        <img src="\/assets\/Full_moon.png" alt="Full_moon">$/;"	function	line:49
-footer	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^    <footer><small>&copy;2017 <\/small><\/footer>$/;"	function	line:52
-script	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^    <script type="text\/javascript" src="js\/moon.js"><\/script>$/;"	function	line:53
-script	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^    <script type="text\/javascript" src=".\/js\/map.js"><\/script>$/;"	function	line:54
-form	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/formStyles.css	/^form{$/;"	function	line:1
-.formInput	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/formStyles.css	/^.formInput{$/;"	function	line:8
-label	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/formStyles.css	/^label{$/;"	function	line:15
-html	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^<html>$/;"	function	line:2
-head	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^  <head>$/;"	function	line:3
-meta	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^    <meta charset="utf-8">$/;"	function	line:4
-title	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^    <title>WereForm<\/title>$/;"	function	line:5
-link	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^    <link rel="stylesheet" href=".\/formStyles.css">$/;"	function	line:6
-body	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^  <body>$/;"	function	line:8
-form	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^    <form>$/;"	function	line:9
-div	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^      <div class='formInput'>$/;"	function	line:10
-label	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^        <label>Location<\/label>$/;"	function	line:11
-select	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^        <select name='location' class='location'>$/;"	function	line:12
-option	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^          <option disabled selected>Select<\/option>$/;"	function	line:13
-option	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^          <option value='Capitol Hill'>Capitol Hill<\/option>$/;"	function	line:14
-option	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^          <option value='Wash Park'>Wash Park<\/option>$/;"	function	line:15
-option	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^          <option value='Five Points'>Five Points<\/option>$/;"	function	line:16
-option	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^          <option value='Chatfield'>Chatfield<\/option>$/;"	function	line:17
-option	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^          <option value='RiNo'>RiNo<\/option>$/;"	function	line:18
-option	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^          <option value='LoHi'>LoHi<\/option>$/;"	function	line:19
-option	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^          <option value='Cherry Creek'>Cherry Creek<\/option>$/;"	function	line:20
-option	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^          <option value='Aurora'>Aurora<\/option>$/;"	function	line:21
-option	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^          <option value='Baker'>Baker<\/option>$/;"	function	line:22
-option	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^          <option value='Littleton'>Littleton<\/option>$/;"	function	line:23
-div	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^      <div class='formInput'>$/;"	function	line:27
-label	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^        <label>Color<\/label>$/;"	function	line:28
-select	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^        <select name='color' class='color'>$/;"	function	line:29
-option	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^          <option disabled selected>Select<\/option>$/;"	function	line:30
-option	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^          <option value='Silver'>Silver<\/option>$/;"	function	line:31
-option	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^          <option value='Brown'>Brown<\/option>$/;"	function	line:32
-option	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^          <option value='Black'>Black<\/option>$/;"	function	line:33
-option	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^          <option value='Gray with Yellow Stripe'>Gray with Yellow Stripe<\/option>$/;"	function	line:34
-div	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^      <div class='formInput submit'>$/;"	function	line:37
-input	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^        <input type='submit' value='pin it' class='pinIt'\/>$/;"	function	line:38
-script	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^    <script src=".\/form.js" charset="utf-8"><\/script>$/;"	function	line:41
-pinItFunctionality	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.js	/^function pinItFunctionality(){$/;"	function	line:6
+li	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^            <li><h6>WERE<\/h6><h3>dar<\/h3><\/li>$/;"	function	line:19
+li	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^            <li><a href="\/index.html">Home<\/a><\/li>$/;"	function	line:20
+li	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^            <li><a href="\/about.html">About<\/a><\/li>$/;"	function	line:21
+li	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^            <li><a href="\/form.html">Report a Sighting<\/a><\/li>$/;"	function	line:22
+div	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^    <div class="hero">$/;"	function	line:26
+img	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^      <img src="images\/banner_img.jpeg" width="100%" alt="">$/;"	function	line:27
+div	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^      <div class="herotitle"><h1>WEREdar<\/h1><\/div>$/;"	function	line:28
+div	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^      <div class="herotag"><h2>Where Are Those Weres?<\/h2><\/div>$/;"	function	line:29
+main	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^    <main>$/;"	function	line:31
+div	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^      <div class="block">$/;"	function	line:32
+h	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^        <h3>map of sighitngs<\/h3>$/;"	function	line:33
+div	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^        <div class="map" id="mapid">$/;"	function	line:34
+nav	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^        <nav><a href="\/form.html"><h5>Report a sighting<\/h5><\/a><\/nav>$/;"	function	line:36
+p	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^          <p>Sometimes the most import thing you can do is letting the internet know about it. Let us know where you saw your last werewolf and keep your neighborhood safer. <\/p>$/;"	function	line:37
+nav	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^        <nav><a href="\/about.html"><h5>About us<\/h5><\/a><\/nav>$/;"	function	line:38
+p	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^          <p>Werewolfs are no laughing matter, these criminals are barking mad and need to be put down for good. Learn how our wolf reporting app is taking a bite out of crime. <\/p>$/;"	function	line:39
+aside	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^      <aside class="moon">$/;"	function	line:41
+div	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^          <div class="current">$/;"	function	line:42
+h	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^            <h4>Current Moon<\/h4>$/;"	function	line:43
+p	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^            <p class="curphase"><\/p>$/;"	function	line:44
+img	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^            <img class="curphase-img" height="200px" width="200px" src="#" alt="Waxing_crescent"\/>$/;"	function	line:45
+div	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^          <div class="upcoming">$/;"	function	line:47
+h	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^            <h4>Next Full Moon<\/h4>$/;"	function	line:48
+p	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^            <p class="next-full"><\/p>$/;"	function	line:49
+img	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^            <img src="\/assets\/Full_moon.png" height="200px" width="200px" alt="Full_moon">$/;"	function	line:50
+footer	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^    <footer><small>&copy;2017 <\/small><\/footer>$/;"	function	line:54
+script	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^    <script type="text\/javascript" src="js\/moon.js"><\/script>$/;"	function	line:55
+script	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/index.html	/^    <script type="text\/javascript" src=".\/js\/map.js"><\/script>$/;"	function	line:56

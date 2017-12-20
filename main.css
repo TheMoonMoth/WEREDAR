@@ -14,12 +14,14 @@ header {
   flex-flow: row;
   border-bottom: 5px solid #CFBAB8;
 }
+
 nav ul li{
   display: inline-flex;
   justify-content: space-between;
   text-align: center;
   padding: 2rem 2rem 1rem 2rem;
 }
+
 .hero{
   border-bottom: 5px solid #CFBAB8;
   position: relative;
@@ -35,7 +37,9 @@ nav ul li{
   right: 24%;
 }
 .wolf{
-  
+  position: absolute;
+  top: -35%;
+  right: 6%;
 }
 body{
   background-color: #222930;
@@ -62,6 +66,8 @@ aside{
   flex: 2;
   text-align: center;
   background-color: #362321;
+  border: 2px solid #CFBAB8;
+  border-radius: 5px;
 }
 .upcoming{
   padding: 2rem 0 0 0;
@@ -95,6 +101,9 @@ h6{
   font-size: 275%;
   font-family: 'gotcha', Fallback, sans-serif;
   color: #CFBAB8;
+}
+.next-full, .curphase{
+  padding: 0 0 .5rem 0;
 }
 
 #mapid {

@@ -1,8 +1,49 @@
+body{
+  background-color: #222930;
+}
+
+header {
+  text-decoration: none;
+  color: #CFBAB8;
+  background-color: #B54439;
+  color: hsl(0, 0%, 90%);
+  font-size: 150%;
+  display: flex;
+  flex-flow: row;
+  border-bottom: 5px solid #CFBAB8;
+}
+
+nav ul li{
+  display: inline-flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 2rem;
+}
+
+label{
+  font-size: 2rem;
+  color: #CFBAB8;
+}
+
+select{
+  width: 12rem;
+}
+
+.pinIt{
+  background-color: #362321;
+  height: 4rem;
+  width: 10rem;
+  font-size: 2rem;
+  color: #CFBAB8;
+  border-radius: 25px;
+}
+
 form{
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
   margin: 5rem 5rem 5rem 5rem
+  background-color:
 }
 
 .formInput{
