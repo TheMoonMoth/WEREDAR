@@ -25,10 +25,6 @@ fetch(wolvesApi)
 
 
 function pinWolf(sightingArray, wolvesArray){
-  let names = []
-  for (var i = 0 ; i < wolvesArray.length; i++){
-    names.push(wolves[i].name)
-  }
   for (var j = 0; j < sightingArray.length; j++){
     let marker = L.marker(sightingArray[j].locations[0]).addTo(mymap)
     marker.bindPopup(`The ${wolvesArray[j].color} wolf named ${wolvesArray[j].name} was last seen here`).openPopup()
