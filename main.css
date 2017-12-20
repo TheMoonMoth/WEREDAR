@@ -1,12 +1,14 @@
 a {
   text-decoration: none;
-  color: #d92b4b;
+  color: #CFBAB8;
 }
 header {
   background-color: #B54439;
   color: hsl(0, 0%, 90%);
+  font-size: 150%;
   display: flex;
   flex-flow: row;
+  border-bottom: 5px solid gray;
 }
 nav ul li{
   display: inline-flex;
@@ -14,25 +16,75 @@ nav ul li{
   text-align: center;
   padding: 2rem;
 }
+.hero{
+  border-bottom: 5px solid gray;
+  position: relative;
+}
+.herotitle{
+  position: absolute;
+  top: 25%;
+  right: 40%;
+}
+.herotag{
+  position: absolute;
+  top: 35%;
+  right: 24%;
+}
 body{
-  background-color: #000000;
+  background-color: #222930;
 }
 p{
-  color: #ffffff;
+  color: #CFBAB8;
+  padding-top: .5rem;
 }
-* {
-  margin: 0;
-}
-.hero{
-
-}
-/* .links{
+main{
   display: flex;
-  justify-content: flex-end;
   flex-flow: row;
-} */
-
+  padding: 2rem;
+}
+.block{
+  display: flex;
+  flex-flow: column;
+  padding-right: 2rem;
+  flex: 4;
+}
+aside{
+  display: flex;
+  flex-flow: column;
+  padding-left: 2rem;
+  flex: 2;
+  text-align: center;
+  background-color: #362321;
+}
+h1{
+  color: #CFBAB8;
+  padding: 0 0 0 5rem;
+  font-size: 250%;
+}
+h2{
+  color: #CFBAB8;
+  padding: 0 0 0 5.5rem;
+  font-size: 175%;
+}
+h3{
+  color: #CFBAB8;
+  font-size: 200%;
+  padding: 0 0 1rem 0;
+}
+h4{
+  color: #CFBAB8;
+  padding: 0 0 1rem 0;
+  font-size: 175%
+}
+h5{
+  color: #CFBAB8;
+  padding: 1rem 0 1rem 0;
+  font-size: 200%;
+}
 #mapid {
   height: 280px;
-  width: 400px;
+  width: 600px;
+}
+*{
+  margin: 0;
 }
