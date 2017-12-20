@@ -4,12 +4,6 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-body	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/formStyles.css	/^body{$/;"	function	line:1
-header	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/formStyles.css	/^header {$/;"	function	line:5
-nav ul li	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/formStyles.css	/^nav ul li{$/;"	function	line:16
-label	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/formStyles.css	/^label{$/;"	function	line:23
-select	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/formStyles.css	/^select{$/;"	function	line:28
-.pinIt	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/formStyles.css	/^.pinIt{$/;"	function	line:32
-form	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/formStyles.css	/^form{$/;"	function	line:41
-.formInput	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/formStyles.css	/^.formInput{$/;"	function	line:49
-label	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/formStyles.css	/^label{$/;"	function	line:56
+pinItFunctionality	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.js	/^function pinItFunctionality(){$/;"	function	line:6
+reload	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.js	/^function reload(){$/;"	function	line:25
+reload	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.js	/^function reload(){$/;"	function	line:25

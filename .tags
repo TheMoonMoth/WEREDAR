@@ -92,9 +92,6 @@ h4	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/main.css	/^h4{$/;"	
 h5	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/main.css	/^h5{$/;"	function	line:81
 #mapid	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/main.css	/^#mapid {$/;"	function	line:86
 *	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/main.css	/^*{$/;"	function	line:90
-pinItFunctionality	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.js	/^function pinItFunctionality(){$/;"	function	line:6
-reload	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.js	/^function reload(){$/;"	function	line:27
-reload	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.js	/^function reload(){$/;"	function	line:27
 body	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/formStyles.css	/^body{$/;"	function	line:1
 header	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/formStyles.css	/^header {$/;"	function	line:5
 nav ul li	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/formStyles.css	/^nav ul li{$/;"	function	line:16
@@ -104,3 +101,6 @@ select	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/formStyles.css	
 form	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/formStyles.css	/^form{$/;"	function	line:41
 .formInput	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/formStyles.css	/^.formInput{$/;"	function	line:49
 label	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/formStyles.css	/^label{$/;"	function	line:56
+pinItFunctionality	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.js	/^function pinItFunctionality(){$/;"	function	line:6
+reload	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.js	/^function reload(){$/;"	function	line:25
+reload	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.js	/^function reload(){$/;"	function	line:25

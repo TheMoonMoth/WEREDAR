@@ -18,9 +18,7 @@ function pinItFunctionality(){
       body: JSON.stringify(formDatas)
     })
     .then((resp) => resp.json())
-    .then((resp) => {
-      reload()
-    })
+    reload()
   })
 }
 
