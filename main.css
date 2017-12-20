@@ -12,7 +12,7 @@ header {
   font-size: 150%;
   display: flex;
   flex-flow: row;
-  border-bottom: 5px solid gray;
+  border-bottom: 5px solid #CFBAB8;
 }
 nav ul li{
   display: inline-flex;
@@ -21,7 +21,7 @@ nav ul li{
   padding: 2rem;
 }
 .hero{
-  border-bottom: 5px solid gray;
+  border-bottom: 5px solid #CFBAB8;
   position: relative;
 }
 .herotitle{
@@ -88,6 +88,9 @@ h5{
   color: #CFBAB8;
   padding: 1rem 0 1rem 0;
   font-size: 200%;
+}
+h6{
+  font-size: 275%;
 }
 #mapid {
   height: 280px;
