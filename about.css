@@ -15,6 +15,11 @@ p {
   padding: 0;
 }
 
+.page-title {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
 .cards {
   display: flex;
   flex-flow: row nowrap;
