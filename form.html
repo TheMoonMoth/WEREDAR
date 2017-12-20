@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>WereForm</title>
+    <link rel="stylesheet" href="./formStyles.css">
+  </head>
+  <body>
+    <form>
+      <div class='formInput'>
+        <label>Threat Level</label>
+        <select name='threatLevel' class='threatLevel'>
+          <option disabled selected>Select</option>
+          <option value='Ah'>Ah</option>
+          <option value='Ahh'>Ahh</option>
+          <option value='Ahhh'>Ahhh</option>
+          <option value='Ahhhh'>Ahhhh</option>
+          <option value='AHHHH'>AHHHHH</option>
+        </select>
+      </div>
+      <div class='formInput'>
+        <label>Location</label>
+        <input type='text' name='location' class='location'/>
+      </div>
+      <div class='formInput'>
+        <label>Color</label>
+        <select name='color' class='color'>
+          <option disabled selected>Select</option>
+          <option value='Silver'>Silver</option>
+          <option value='Brown'>Brown</option>
+          <option value='Black'>Black</option>
+          <option value='Gray with Yellow Stripe'>Gray with Yellow Stripe</option>
+        </select>
+      </div>
+      <div class='formInput submit'>
+        <input type='submit' value='pin it' class='pinIt'/>
+      </div>
+    </form>
+    <script src="./form.js" charset="utf-8"></script>
+  </body>
+</html>
