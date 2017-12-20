@@ -1,4 +1,6 @@
-pinItFunctionality	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.js	/^function pinItFunctionality(){$/;"	function	line:10
+form	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/formStyles.css	/^form{$/;"	function	line:1
+.formInput	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/formStyles.css	/^.formInput{$/;"	function	line:8
+label	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/formStyles.css	/^label{$/;"	function	line:15
 html	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^<html>$/;"	function	line:2
 head	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^  <head>$/;"	function	line:3
 meta	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^    <meta charset="utf-8">$/;"	function	line:4
@@ -26,12 +28,7 @@ option	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^   
 option	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^          <option value='Brown'>Brown<\/option>$/;"	function	line:30
 option	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^          <option value='Black'>Black<\/option>$/;"	function	line:31
 option	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^          <option value='Gray with Yellow Stripe'>Gray with Yellow Stripe<\/option>$/;"	function	line:32
-div	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^      <div class='formInput'>$/;"	function	line:35
-label	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^        <label>Name<\/label>$/;"	function	line:36
-input	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^        <input type='text' name='name' class='name'\/>$/;"	function	line:37
-div	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^      <div class='formInput submit'>$/;"	function	line:39
-input	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^        <input type='submit' value='pin it' class='pinIt'\/>$/;"	function	line:40
-script	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^    <script src=".\/form.js" charset="utf-8"><\/script>$/;"	function	line:43
-form	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/formStyles.css	/^form{$/;"	function	line:1
-.formInput	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/formStyles.css	/^.formInput{$/;"	function	line:8
-label	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/formStyles.css	/^label{$/;"	function	line:15
+div	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^      <div class='formInput submit'>$/;"	function	line:35
+input	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^        <input type='submit' value='pin it' class='pinIt'\/>$/;"	function	line:36
+script	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.html	/^    <script src=".\/form.js" charset="utf-8"><\/script>$/;"	function	line:39
+pinItFunctionality	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.js	/^function pinItFunctionality(){$/;"	function	line:6

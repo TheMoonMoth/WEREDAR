@@ -4,6 +4,4 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-form	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/formStyles.css	/^form{$/;"	function	line:1
-.formInput	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/formStyles.css	/^.formInput{$/;"	function	line:8
-label	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/formStyles.css	/^label{$/;"	function	line:15
+pinItFunctionality	/Users/patrickbiffle/Desktop/Galvanize/Were.com--Frontend/form.js	/^function pinItFunctionality(){$/;"	function	line:6

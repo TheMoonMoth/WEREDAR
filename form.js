@@ -1,8 +1,4 @@
-const baseUrl = 'https://werewolf-tracker.herokuapp.com/'
 const postUrl = 'https://werewolf-tracker.herokuapp.com/userSighting'
-const pinItButton = document.querySelector('.pinIt')
-const threatLevel = document.querySelector('.threatLevel')
-const color = document.querySelector('.color')
 const form = document.querySelector('form')
 
 pinItFunctionality()
@@ -14,8 +10,7 @@ function pinItFunctionality(){
     var formDatas = {
             'threat': data.get('threatLevel'),
             'location': data.get('location'),
-            'color': data.get('color'),
-            'name': data.get('name')
+            'color': data.get('color')
         }
     fetch((postUrl), {
       method: 'POST',
