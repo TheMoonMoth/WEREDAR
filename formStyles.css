@@ -1,0 +1,17 @@
+form{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  margin: 5rem 5rem 5rem 5rem
+}
+
+.formInput{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+label{
+  margin-right: 2rem;
+}
