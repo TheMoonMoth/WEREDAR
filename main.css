@@ -1,0 +1,17 @@
+a {
+  text-decoration: none;
+  color: yellow;
+}
+header {
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 90%);
+  padding: 2rem 4rem 2rem 6rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+/* .links{
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: row;
+} */
