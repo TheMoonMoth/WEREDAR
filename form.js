@@ -12,6 +12,7 @@ function pinItFunctionality(){
             'location': data.get('location'),
             'color': data.get('color')
         }
+        console.log(formDatas)
     fetch((postUrl), {
       method: 'POST',
       headers: new Headers ({'Content-Type' : 'application/json'}),
