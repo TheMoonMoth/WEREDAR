@@ -1,45 +1,41 @@
 const baseUrl = 'https://werewolf-tracker.herokuapp.com/'
 const pinItButton = document.querySelector('.pinIt')
+const threatLevel = document.querySelector('.threatLevel')
+const color = document.querySelector('.color')
+const form = document.querySelector('form')
+
 pinItFunctionality()
-listeners()
+
 
 console.log(document.querySelector('.color').value)
 
 function pinItFunctionality(){
-  pinItButton.addEventListener('submit', function(event){
+  form.addEventListener('submit', function(event){
     event.preventDefault()
     console.log('listening')
-    fetch((baseUrl), {
+    fetch(baseUrl + '/locations', {
       method: 'POST',
-      headers: new header({
-        'Content-Type':'application/json'
-      }),
+      headers: new Headers ({'Content-Type' : 'application/json'}),
       body: JSON.stringify(formData())
     })
-    .then((resp) => resp.json)
+    .then((resp) => resp.json())
     .then((resp) => {
       console.log(resp)
     })
-  })
-}
-
-function listeners(){
-  let threatLevel = document.querySelector('.threatLevel')
-  threatLevel.addEventListener('change', function(){
-    console.log(threatLevel.value)
+    .catch(function(){
+      console.log('you blew it')
+    })
   })
 }
 
 function formData(){
   const data = new FormData(document.querySelector('form'))
-    return{
+    return {
       data:{
-        threat: data.get('name'),
-        neighborhood: data.get('message'),
+        threat: threatLevel.value,
         location: data.get('location'),
-        color: data.get('color'),
-        name: data.get('name'),
-        photo: data.get('photo')
+        color: color.value,
+        name: data.get('name')
       }
     }
 }
