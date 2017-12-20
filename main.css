@@ -1,6 +1,6 @@
 @font-face{
   font-family: "gotcha";
-  src: url('/gotcha_2/GOTHA.ttf');
+  src: url("/gotcha_2/GOTCHA.ttf");
 }
 a {
   text-decoration: none;
@@ -91,9 +91,9 @@ h5{
 }
 h6{
   font-size: 275%;
-  color: #CFBAB8;
-  padding: 1rem 0 0 1rem;
+  font-family: 'gotcha', Fallback, sans-serif;
 }
+
 #mapid {
   height: 280px;
   width: 600px;
