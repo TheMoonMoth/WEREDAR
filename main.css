@@ -1,14 +1,30 @@
 a {
   text-decoration: none;
-  color: yellow;
+  color: #d92b4b;
 }
 header {
-  background-color: hsl(0, 0%, 20%);
+  background-color: #000000;
   color: hsl(0, 0%, 90%);
-  padding: 2rem 4rem 2rem 6rem;
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row;
+}
+nav ul li{
+  display: inline-flex;
   justify-content: space-between;
+  text-align: center;
+  padding: 2rem;
+}
+body{
+  background-color: #000000;
+}
+p{
+  color: #ffffff;
+}
+* {
+  margin: 0;
+}
+.hero{
+
 }
 /* .links{
   display: flex;
