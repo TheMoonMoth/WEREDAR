@@ -2,6 +2,12 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
+    integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
+    integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
+    crossorigin=""></script>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="main.css">
     <title>were</title>
@@ -22,9 +28,8 @@
       <h2>Where Are Those Wears?</h2>
     </div>
     <main>
-      <h3>Map</h3>
-      <p>Tracking werewolves in your area has never been easier</p>
-      <div class="map">
+      <h3>map of sighitngs</h3>
+      <div class="map" id="mapid">
 
       </div>
       <nav><a href="#"><h5>Report a sighting</h5></a></nav>
@@ -36,7 +41,7 @@
       <h4>Current Moon</h4>
       <div class="current">
         <p class="curphase"></p>
-        <img class="curphase-img"src="" alt="Waxing_crescent">
+        <img class="curphase-img" src="#" alt="Waxing_crescent"/>
       </div>
       <h4>Next Full Moon</h4>
       <div class="upcoming">
@@ -46,5 +51,6 @@
     </aside>
     <footer><small>&copy;2017 </small></footer>
     <script type="text/javascript" src="js/moon.js"></script>
+    <script type="text/javascript" src="./js/map.js"></script>
   </body>
 </html>
