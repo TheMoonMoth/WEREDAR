@@ -24,8 +24,11 @@ JavaScript, Leaflet, US Navy Lunar API, HTML, CSS,
 
 ## Authors
 [Kyle Weintraub](https://github.com/TheMoonMoth)
+<br>
 [Patrick Biffle](https://github.com/Piglacquer)
+<br>
 [Paul Highum](https://github.com/paulhighum)
+<br>
 [Ross Prehn](https://github.com/Rossprehn)
 
 
