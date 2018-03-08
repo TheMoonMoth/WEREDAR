@@ -13,6 +13,10 @@ User opens the web app and is presented with a home screen depicting a map with 
 
 ![Home Interface](/assets/home-interface.png)
 
+Via the header the user can navigate to the about page to learn about the app and the team behind it. The user can also use the header to navigate to report-a-sighting page, where the user can report having seen a known wolf around the Greater Denver Area.
+
+![Report Sighting](/assets/report-sighting.png)
+
 ## Installation Instructions
 
 ## Technologies
