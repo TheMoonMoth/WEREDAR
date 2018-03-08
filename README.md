@@ -9,15 +9,16 @@ For thousands of years werewolves have feasted on unsuspecting humans every full
 ![Home](/assets/home-screen.png)
 
 ## User Experience
+User opens the web app and is presented with a home screen depicting a map with the last known location of all known werewolves as well as a moon phase tracker. The map allows the user to see if a wolf has been spotted near them and the moon phase tracker helps them prepare for dangerous full moons.
 
-
+![Home Interface](/assets/home-interface.png)
 
 ## Installation Instructions
 
 ## Technologies
 JavaScript, Leaflet, US Navy Lunar API, HTML, CSS,
 
-## Author
+## Authors
 [Kyle Weintraub](https://github.com/TheMoonMoth)
 [Patrick Biffle](https://github.com/Piglacquer)
 [Paul Highum](https://github.com/paulhighum)
