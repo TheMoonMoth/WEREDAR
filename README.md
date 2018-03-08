@@ -6,7 +6,10 @@ Here at WEREdar we are committed to protecting your community from the curse of 
 
 For thousands of years werewolves have feasted on unsuspecting humans every full moon, but no longer. With the help of WEREdar you can now stay safe by tracking werewolf sightings in your neighborhood. This easy to use app includes a map with pins depicting the last known location of every known werewolf in the area, a lunar cycle tracker, and a form to report a sighting of a werewolf. These are the essential tools you need to stay alert and stay alive.
 
+![Home](/assets/home-screen.png)
+
 ## User Experience
+
 
 
 ## Installation Instructions
