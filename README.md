@@ -18,6 +18,10 @@ Via the header the user can navigate to the about page to learn about the app an
 ![Report Sighting](/assets/report-sighting.png)
 
 ## Installation Instructions
+To use the app please visit our live site [here](https://weredar-1.firebaseapp.com/).
+
+Use of the source code is free. To do so please fork and clone this repository.
+
 
 ## Technologies
 JavaScript, Leaflet, US Navy Lunar API, HTML, CSS,
