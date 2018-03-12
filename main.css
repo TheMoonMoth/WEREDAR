@@ -15,11 +15,28 @@ header {
   border-bottom: 5px solid #CFBAB8;
 }
 
+.logo {
+  /* width: 30vmin; */
+  max-width: 30vmin;
+  max-height: 10vmin;
+  padding: 2vmin;
+}
+
+nav {
+  display: flex;
+  align-items: flex-end;
+  padding: 0 0 2vmin 0;
+}
+
+nav ul {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+
 nav ul li{
-  display: inline-flex;
-  justify-content: space-between;
-  text-align: center;
-  padding: 2rem 2rem 1rem 2rem;
+  padding: 0 1vmin;
 }
 
 .hero{

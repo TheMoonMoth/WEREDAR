@@ -13,13 +13,6 @@ header {
   border-bottom: 5px solid #CFBAB8;
 }
 
-nav ul li{
-  display: inline-flex;
-  justify-content: space-between;
-  text-align: center;
-  padding: 2rem;
-}
-
 label{
   font-size: 2rem;
   color: #CFBAB8;
