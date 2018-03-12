@@ -1,4 +1,4 @@
-![Logo](/assets/logo.png)
+![Logo](/assets/were-logo-black.png)
 
 
 ## App Description
