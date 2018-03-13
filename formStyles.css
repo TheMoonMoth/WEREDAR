@@ -7,19 +7,19 @@ body{
 
 header {
   text-decoration: none;
-  color: rgb(230, 230, 230);
+  color: rgb(204,202,202);
   background-color: rgb(181, 68, 57);
   color: hsl(0, 0%, 90%);
   font-size: 150%;
   display: flex;
   flex-flow: row;
-  border-bottom: 5px solid rgb(230, 230, 230);
+  border-bottom: 5px solid rgb(204,202,202);
   width: 100vw;
 }
 
 label{
   font-size: 2rem;
-  color: rgb(230, 230, 230);
+  color: rgb(204,202,202);
 }
 
 select{
@@ -31,9 +31,9 @@ select{
   height: 10vh;
   width: 30vw;
   font-size: 2rem;
-  color: rgb(230, 230, 230);
+  color: rgb(204,202,202);
   border-radius: 25px;
-  border-color: rgb(230, 230, 230);
+  border-color: rgb(204,202,202);
   cursor: pointer;
 }
 
@@ -44,7 +44,7 @@ form{
   max-width: 70vw;
   margin: 5vmin;
   background-color: rgb(54, 35, 33);
-  border: 2px solid #CFBAB8;
+  border: 2px solid rgb(204,202,202);
   border-radius: 5px;
 }
 

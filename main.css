@@ -90,9 +90,6 @@ aside{
   border: 2px solid rgb(204,202,202);
   border-radius: 5px;
 }
-.upcoming{
-  padding: 2rem 0 0 0;
-}
 h1{
   color: rgb(204,202,202);
   padding: 0 0 0 5rem;
@@ -130,7 +127,7 @@ h6{
 #mapid {
   height: 60vmin;
   width: 80vmin;
-  border: 2px solid rgb(230, 230, 230);
+  border: 2px solid rgb(204,202,202);
   border-radius: 5px;
   margin: 2vmin 0 0 0;
 }
