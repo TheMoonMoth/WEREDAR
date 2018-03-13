@@ -50,11 +50,7 @@ nav ul li{
   border-bottom: 5px solid rgb(230, 230, 230);
   position: relative;
 }
-.herotitle{
-  position: absolute;
-  top: 17%;
-  right: 35%;
-}
+
 .herotag{
   position: absolute;
   top: 35%;
@@ -71,6 +67,7 @@ body{
 p{
   color: rgb(230, 230, 230);
   padding-top: .5rem;
+  font-size: 1.1rem;
 }
 main{
   display: flex;
@@ -86,11 +83,11 @@ main{
 aside{
   display: flex;
   flex-flow: column;
-  padding: 1rem 0 2rem 0;
+  justify-content: space-around;
   flex: 2;
   text-align: center;
   background-color: #362321;
-  border: 2px solid #CFBAB8;
+  border: 2px solid rgb(230, 230, 230);
   border-radius: 5px;
 }
 .upcoming{
@@ -118,7 +115,7 @@ h4{
 }
 h5{
   color: rgb(230, 230, 230);
-  padding: 1rem 0 1rem 0;
+  padding: 1rem 0 0 0;
   font-size: 200%;
 }
 h6{
@@ -131,8 +128,11 @@ h6{
 }
 
 #mapid {
-  height: 280px;
-  width: 600px;
+  height: 60vmin;
+  width: 80vmin;
+  border: 2px solid rgb(230, 230, 230);
+  border-radius: 5px;
+  margin: 2vmin 0 0 0;
 }
 *{
   margin: 0;
