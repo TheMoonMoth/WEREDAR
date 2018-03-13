@@ -126,7 +126,7 @@ h6{
 
 #mapid {
   height: 60vmin;
-  width: 80vmin;
+  min-width: 40vw;
   border: 2px solid rgb(204,202,202);
   border-radius: 5px;
   margin: 2vmin 0 0 0;

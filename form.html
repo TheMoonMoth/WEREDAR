@@ -18,42 +18,44 @@
           </ul>
         </nav>
     </header>
-    <div class="map-style">
-      <h5>Map of sightings</h5>
-      <div class="map" id="mapid"></div>
-    </div>
-    <form>
-      <div class='formInput'>
-        <label>Location</label>
-        <select name='location' class='location'>
-          <option disabled selected>Select</option>
-          <option value='Capitol Hill'>Capitol Hill</option>
-          <option value='Wash Park'>Wash Park</option>
-          <option value='Five Points'>Five Points</option>
-          <option value='Chatfield'>Chatfield</option>
-          <option value='RiNo'>RiNo</option>
-          <option value='LoHi'>LoHi</option>
-          <option value='Cherry Creek'>Cherry Creek</option>
-          <option value='Aurora'>Aurora</option>
-          <option value='Baker'>Baker</option>
-          <option value='Littleton'>Littleton</option>
-        </select>
+    <main>
+      <div class="map-style">
+        <h5>Map of sightings</h5>
+        <div class="map" id="mapid"></div>
       </div>
-      </div>
-      <div class='formInput'>
-        <label>Werewolf Color</label>
-        <select name='color' class='color'>
-          <option disabled selected>Select</option>
-          <option value='Silver'>Silver</option>
-          <option value='Brown'>Brown</option>
-          <option value='Black'>Black</option>
-          <option value='Gray with Yellow Stripe'>Gray with Yellow Stripe</option>
-        </select>
-      </div>
-      <div class='formInput submit'>
-        <input type='submit' value='Report Sighting' class='pinIt'/>
-      </div>
-    </form>
+      <form>
+        <div class='formInput'>
+          <label>Location</label>
+          <select name='location' class='location'>
+            <option disabled selected>Select</option>
+            <option value='Capitol Hill'>Capitol Hill</option>
+            <option value='Wash Park'>Wash Park</option>
+            <option value='Five Points'>Five Points</option>
+            <option value='Chatfield'>Chatfield</option>
+            <option value='RiNo'>RiNo</option>
+            <option value='LoHi'>LoHi</option>
+            <option value='Cherry Creek'>Cherry Creek</option>
+            <option value='Aurora'>Aurora</option>
+            <option value='Baker'>Baker</option>
+            <option value='Littleton'>Littleton</option>
+          </select>
+        </div>
+        </div>
+        <div class='formInput'>
+          <label>Werewolf Color</label>
+          <select name='color' class='color'>
+            <option disabled selected>Select</option>
+            <option value='Silver'>Silver</option>
+            <option value='Brown'>Brown</option>
+            <option value='Black'>Black</option>
+            <option value='Gray with Yellow Stripe'>Gray with Yellow Stripe</option>
+          </select>
+        </div>
+        <div class='formInput submit'>
+          <input type='submit' value='Report Sighting' class='pinIt'/>
+        </div>
+      </form>
+    </main>
     <script type="text/javascript" src="./js/map.js"></script>
     <script src="./form.js" charset="utf-8"></script>
   </body>

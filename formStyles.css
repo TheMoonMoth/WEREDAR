@@ -17,6 +17,11 @@ header {
   width: 100vw;
 }
 
+main {
+  display: flex;
+  align-items: flex-end;
+}
+
 label{
   font-size: 2rem;
   color: rgb(204,202,202);
@@ -42,7 +47,8 @@ form{
   flex-flow: column nowrap;
   justify-content: space-between;
   max-width: 70vw;
-  margin: 5vmin;
+  height: 60vmin;
+  margin: 0 0 0 5vmin;
   background-color: rgb(54, 35, 33);
   border: 2px solid rgb(204,202,202);
   border-radius: 5px;
