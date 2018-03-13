@@ -4,21 +4,28 @@
 }
 a {
   text-decoration: none;
-  color: #CFBAB8;
+  color: rgb(230, 230, 230);
 }
 header {
   background-color: #B54439;
-  color: hsl(0, 0%, 90%);
+  color: rgb(230, 230, 230);
   font-size: 150%;
   display: flex;
   flex-flow: row;
-  border-bottom: 5px solid #CFBAB8;
+  border-bottom: 5px solid rgb(230, 230, 230);
 }
 
 .logo {
   /* width: 30vmin; */
   max-width: 30vmin;
   max-height: 10vmin;
+  padding: 2vmin;
+}
+
+.logo-small {
+  /* width: 30vmin; */
+  max-width: 24vmin;
+  max-height: 8vmin;
   padding: 2vmin;
 }
 
@@ -40,13 +47,13 @@ nav ul li{
 }
 
 .hero{
-  border-bottom: 5px solid #CFBAB8;
+  border-bottom: 5px solid rgb(230, 230, 230);
   position: relative;
 }
 .herotitle{
   position: absolute;
-  top: 25%;
-  right: 40%;
+  top: 17%;
+  right: 35%;
 }
 .herotag{
   position: absolute;
@@ -62,7 +69,7 @@ body{
   background-color: #222930;
 }
 p{
-  color: #CFBAB8;
+  color: rgb(230, 230, 230);
   padding-top: .5rem;
 }
 main{
@@ -90,34 +97,34 @@ aside{
   padding: 2rem 0 0 0;
 }
 h1{
-  color: #CFBAB8;
+  color: rgb(230, 230, 230);
   padding: 0 0 0 5rem;
   font-size: 250%;
 }
 h2{
-  color: #CFBAB8;
+  color: rgb(230, 230, 230);
   padding: 0 0 0 5.5rem;
   font-size: 175%;
 }
 h3{
-  color: #CFBAB8;
+  color: rgb(230, 230, 230);
   font-size: 150%;
   padding: 0 0 1rem .25rem;
 }
 h4{
-  color: #CFBAB8;
+  color: rgb(230, 230, 230);
   padding: 0 0 1rem 0;
   font-size: 175%
 }
 h5{
-  color: #CFBAB8;
+  color: rgb(230, 230, 230);
   padding: 1rem 0 1rem 0;
   font-size: 200%;
 }
 h6{
   font-size: 275%;
   font-family: 'gotcha', Fallback, sans-serif;
-  color: #CFBAB8;
+  color: rgb(230, 230, 230);
 }
 .next-full, .curphase{
   padding: 0 0 .5rem 0;

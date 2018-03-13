@@ -1,21 +1,25 @@
 body{
   background-color: #222930;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
 }
 
 header {
   text-decoration: none;
-  color: #CFBAB8;
-  background-color: #B54439;
+  color: rgb(230, 230, 230);
+  background-color: rgb(181, 68, 57);
   color: hsl(0, 0%, 90%);
   font-size: 150%;
   display: flex;
   flex-flow: row;
-  border-bottom: 5px solid #CFBAB8;
+  border-bottom: 5px solid rgb(230, 230, 230);
+  width: 100vw;
 }
 
 label{
   font-size: 2rem;
-  color: #CFBAB8;
+  color: rgb(230, 230, 230);
 }
 
 select{
@@ -23,27 +27,34 @@ select{
 }
 
 .pinIt{
-  background-color: #362321;
-  height: 4rem;
-  width: 10rem;
+  background-color: rgb(181, 68, 57);
+  height: 10vh;
+  width: 30vw;
   font-size: 2rem;
-  color: #CFBAB8;
+  color: rgb(230, 230, 230);
   border-radius: 25px;
+  border-color: rgb(230, 230, 230);
+  cursor: pointer;
 }
 
 form{
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
-  margin: 5rem 5rem 5rem 5rem
-  background-color:
+  max-width: 70vw;
+  margin: 5vmin;
+  background-color: rgb(54, 35, 33);
+  border: 2px solid #CFBAB8;
+  border-radius: 5px;
 }
 
 .formInput{
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
+  align-items: center;
   padding: 2rem 2rem 2rem 2rem;
+  outline: none !important;
 }
 
 label{
