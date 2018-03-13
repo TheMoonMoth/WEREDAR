@@ -4,15 +4,15 @@
 }
 a {
   text-decoration: none;
-  color: rgb(230, 230, 230);
+  color: rgb(204,202,202);
 }
 header {
   background-color: #B54439;
-  color: rgb(230, 230, 230);
+  color: rgb(204,202,202);
   font-size: 150%;
   display: flex;
   flex-flow: row;
-  border-bottom: 5px solid rgb(230, 230, 230);
+  border-bottom: 5px solid rgb(204,202,202);
 }
 
 .logo {
@@ -26,7 +26,7 @@ header {
   /* width: 30vmin; */
   max-width: 24vmin;
   max-height: 8vmin;
-  padding: 2vmin;
+  padding-bottom: 4px;
 }
 
 nav {
@@ -47,7 +47,7 @@ nav ul li{
 }
 
 .hero{
-  border-bottom: 5px solid rgb(230, 230, 230);
+  border-bottom: 5px solid rgb(204,202,202);
   position: relative;
 }
 
@@ -65,7 +65,7 @@ body{
   background-color: #222930;
 }
 p{
-  color: rgb(230, 230, 230);
+  color: rgb(204,202,202);
   padding-top: .5rem;
   font-size: 1.1rem;
 }
@@ -87,41 +87,41 @@ aside{
   flex: 2;
   text-align: center;
   background-color: #362321;
-  border: 2px solid rgb(230, 230, 230);
+  border: 2px solid rgb(204,202,202);
   border-radius: 5px;
 }
 .upcoming{
   padding: 2rem 0 0 0;
 }
 h1{
-  color: rgb(230, 230, 230);
+  color: rgb(204,202,202);
   padding: 0 0 0 5rem;
   font-size: 250%;
 }
 h2{
-  color: rgb(230, 230, 230);
+  color: rgb(204,202,202);
   padding: 0 0 0 5.5rem;
   font-size: 175%;
 }
 h3{
-  color: rgb(230, 230, 230);
+  color: rgb(204,202,202);
   font-size: 150%;
   padding: 0 0 1rem .25rem;
 }
 h4{
-  color: rgb(230, 230, 230);
+  color: rgb(204,202,202);
   padding: 0 0 1rem 0;
   font-size: 175%
 }
 h5{
-  color: rgb(230, 230, 230);
+  color: rgb(204,202,202);
   padding: 1rem 0 0 0;
   font-size: 200%;
 }
 h6{
   font-size: 275%;
   font-family: 'gotcha', Fallback, sans-serif;
-  color: rgb(230, 230, 230);
+  color: rgb(204,202,202);
 }
 .next-full, .curphase{
   padding: 0 0 .5rem 0;
