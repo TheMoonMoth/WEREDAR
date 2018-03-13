@@ -32,17 +32,21 @@ const locations = {
   "Littleton": [39.581764, -105.044376]
 }
 
-fetch(sightingsApi)
-  .then(response => response.json())
-  .then(response => sightings = response)
+function getWolfSightings(){
+  fetch(sightingsApi)
+    .then(response => response.json())
+    .then(response => sightings = response)
 
-fetch(wolvesApi)
-  .then(response => response.json())
-  .then(response => wolves = response)
+  fetch(wolvesApi)
+    .then(response => response.json())
+    .then(response => wolves = response)
 
-setTimeout(function(){
-  pinWolf(sightings, wolves)
-}, 1000)
+  setTimeout(function(){
+    pinWolf(sightings, wolves)
+  }, 1000)
+}
+
+getWolfSightings()
 
 
 function pinWolf(sightingArray, wolvesArray){
@@ -56,4 +60,31 @@ function pinWolf(sightingArray, wolvesArray){
       radius: 1000
       }).addTo(mymap)
   }
+}
+
+const postUrl = 'https://werewolf-tracker.herokuapp.com/userSighting'
+const form = document.querySelector('form')
+
+pinItFunctionality()
+
+function pinItFunctionality(){
+  form.addEventListener('submit', function(event){
+    event.preventDefault()
+    const data = new FormData(document.querySelector('form'))
+    var formDatas = {
+            'location': data.get('location'),
+            'color': data.get('color')
+        }
+    fetch((postUrl), {
+      method: 'POST',
+      headers: new Headers ({'Content-Type' : 'application/json'}),
+      body: JSON.stringify(formDatas)
+    })
+    .then((resp) => resp.json())
+    .then(resp => {
+      console.log(resp)
+      getWolfSightings()
+      return resp
+    })
+  })
 }
