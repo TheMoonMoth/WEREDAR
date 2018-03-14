@@ -32,8 +32,6 @@ const locations = {
 }
 
 function getWolfSightings(){
-  let sightings = []
-
   fetch(sightingsApi)
     .then(response => response.json())
     .then(response => sightings = response)
@@ -44,7 +42,7 @@ function getWolfSightings(){
 
   setTimeout(function(){
     pinWolf(sightings, wolves)
-  }, 1000)
+  }, 2000)
 }
 
 getWolfSightings()
