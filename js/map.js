@@ -39,10 +39,7 @@ function getWolfSightings(){
   fetch(wolvesApi)
     .then(response => response.json())
     .then(response => wolves = response)
-
-  setTimeout(function(){
-    pinWolf(sightings, wolves)
-  }, 1000)
+    .then(res => pinWolf(sightings, res))
 }
 
 getWolfSightings()
