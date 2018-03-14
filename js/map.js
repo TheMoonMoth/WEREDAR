@@ -33,6 +33,8 @@ const locations = {
 }
 
 function getWolfSightings(){
+  let sightings = []
+
   fetch(sightingsApi)
     .then(response => response.json())
     .then(response => sightings = response)
@@ -50,19 +52,21 @@ getWolfSightings()
 
 
 function pinWolf(sightingArray, wolvesArray){
+  var markerGroup = L.layerGroup().addTo(mymap)
+  markerGroup.clearLayers()
   for (var j = 0; j < sightingArray.length; j++){
-    let marker = L.marker(locations[sightingArray[j].locations[0]]).addTo(mymap)
+    let marker = L.marker(locations[sightingArray[j].locations[0]]).addTo(markerGroup)
     marker.bindPopup(`The ${wolvesArray[j].color} wolf named ${wolvesArray[j].name} was last seen in ${sightingArray[j].locations[0]}`).openPopup()
     var circle = L.circle(locations[sightingArray[j].locations[0]], {
       color: 'red',
       fillColor: '#823129',
       fillOpacity: 0.5,
       radius: 1000
-      }).addTo(mymap)
+    }).addTo(mymap)
   }
 }
 
-const postUrl = 'https://werewolf-tracker.herokuapp.com/userSighting'
+const postUrl = 'https://cors-anywhere.herokuapp.com/https://werewolf-tracker.herokuapp.com/userSighting'
 const form = document.querySelector('form')
 
 pinItFunctionality()
@@ -82,8 +86,8 @@ function pinItFunctionality(){
     })
     .then((resp) => resp.json())
     .then(resp => {
-      console.log(resp)
       getWolfSightings()
+
       return resp
     })
   })
