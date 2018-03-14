@@ -32,8 +32,6 @@ const locations = {
 }
 
 function getWolfSightings(){
-  let sightings = []
-
   fetch(sightingsApi)
     .then(response => response.json())
     .then(response => sightings = response)
