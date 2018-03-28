@@ -1,5 +1,5 @@
-const currentMoonAPI = "http://localhost:3000/current-moon"
-const moonCalendarAPI= "http://localhost:3000/moon-calendar"
+const currentMoonAPI = "https://werewolf-tracker.herokuapp.com/current-moon"
+const moonCalendarAPI= "https://werewolf-tracker.herokuapp.com/moon-calendar"
 
 let curPhase = document.querySelector(".curphase")
 let curPhaseIMG = document.querySelector(".curphase-img")
