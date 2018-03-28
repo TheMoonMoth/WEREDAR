@@ -10,8 +10,6 @@ fetch(currentMoonAPI)
   .then(res => {
     curPhase.textContent = res.curphase
     findCurrentPhaseIMG(res)
-    console.log(res)
-    // console.log(res)
     return res
   })
 
@@ -19,7 +17,6 @@ fetch(moonCalendarAPI)
   .then(res => res.json())
   .then(res => {
     findNextFull(res)
-    // console.log(res.phasedata)
     return res
   })
 
@@ -34,8 +31,28 @@ function findNextFull(obj){
 function findCurrentPhaseIMG(obj){
   switch (obj.curphase) {
     case "Waxing Crescent":
-      console.log("true")
       curPhaseIMG.src = "../assets/Waxing_crescent.png"
+      break;
+    case "First Quarter":
+      curPhaseIMG.src = "../assets/First_quarter.png"
+      break;
+    case "Waxing Gibbous":
+      curPhaseIMG.src = "../assets/Waxing_gibbous.png"
+      break;
+    case "Full Moon":
+      curPhaseIMG.src = "../assets/Full_moon.png"
+      break;
+    case "Waning Gibbous":
+      curPhaseIMG.src = "../assets/Waning_gibbous.png"
+      break;
+    case "Last Quarter":
+      curPhaseIMG.src = "../assets/Last_quarter.png"
+      break;
+    case "Waning Crescent":
+      curPhaseIMG.src = "../assets/Waning_crescent.png"
+      break;
+    case "New Moon":
+      curPhaseIMG.src = "../assets/New_moon.png"
       break;
     default:
 
