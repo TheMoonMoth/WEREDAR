@@ -4,7 +4,7 @@
 ## App Description
 Here at WEREdar we are committed to protecting your community from the curse of the lycan.
 
-For thousands of years werewolves have feasted on unsuspecting humans every full moon, but no longer. With the help of WEREdar you can now stay safe by tracking werewolf sightings in your neighborhood. This easy to use app includes a map with pins depicting the last known location of every known werewolf in the area, a lunar cycle tracker, and a form to report a sighting of a werewolf. These are the essential tools you need to stay alert and stay alive.
+For thousands of years werewolves have feasted on unsuspecting humans every full moon, but no longer. With the help of WEREDAR you can now stay safe by tracking werewolf sightings in your neighborhood. This easy to use app includes a map with werewolf location pins, a lunar cycle tracker, and a report-a-werewolf-sighting form. These are the essential tools you need to stay alert and stay alive.
 
 ![Home](/assets/home-screen.png)
 
@@ -20,7 +20,7 @@ Via the header the user can navigate to the about page to learn about the app an
 ## Installation Instructions
 To use the app please visit our live site [here](https://weredar-1.firebaseapp.com/).
 
-Use of the source code is free. To do so please fork and clone this repository.
+Use of the source code is free. To do so please fork and clone this repository. From there navigate into the folder and ```npm install```.
 
 
 ## Technologies
