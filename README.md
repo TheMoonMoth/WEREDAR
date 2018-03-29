@@ -2,7 +2,7 @@
 
 
 ## App Description
-Here at WEREdar we are committed to protecting your community from the curse of the lycan.
+Here at WEREDAR we are committed to protecting your community from the curse of the lycan.
 
 For thousands of years werewolves have feasted on unsuspecting humans every full moon, but no longer. With the help of WEREDAR you can now stay safe by tracking werewolf sightings in your neighborhood. This easy to use app includes a map with werewolf location pins, a lunar cycle tracker, and a report-a-werewolf-sighting form. These are the essential tools you need to stay alert and stay alive.
 
