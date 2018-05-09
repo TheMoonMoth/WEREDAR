@@ -46,6 +46,7 @@ p {
   height: 300px;
   width: 200px;
   margin-top: 1rem;
+  border-radius: 5px;
 }
 
 #kylepic {
